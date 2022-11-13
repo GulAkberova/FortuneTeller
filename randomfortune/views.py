@@ -22,6 +22,6 @@ def fortune(request):
     context={
         "fortune":fortune
     }
-    return render(request,"/fortuneteller/randomfortune/fortune.html",context)
+    return render(request,"/templates/randomfortune/fortune.html",context)
 
 
